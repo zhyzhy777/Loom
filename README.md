@@ -1,6 +1,6 @@
 # Loom
 
-Loom 是一个 Python Agent 框架。串行 Graph 按节点信号调度，ReAct Agent 在图上交替调用模型和显式注册的本地工具。运费示例使用可控模型，无需 API 密钥。DeepSeek 适配器仍在计划中。见 [v0.1 范围](docs/01-scope.md)。
+Loom 是一个 Python Agent 框架。串行 Graph 按节点信号调度，ReAct Agent 在图上交替调用模型和显式注册的本地工具。运费示例使用可控模型，无需 API 密钥。可通过内置的 DeepSeekModel 接入 DeepSeek，配置及调用示例见[使用方式](docs/02-usage.md)。
 
 使用 Python 3.10 或以上版本，在项目根目录执行：
 
