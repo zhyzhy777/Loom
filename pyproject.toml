@@ -5,7 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "loom-agent-framework"
 version = "0.1.0.dev0"
-description = "A serial graph executor for Python agent workflows"
+description = "A Python framework for graph-based agents with tool calling and DeepSeek integration"
+readme = "README.md"
 requires-python = ">=3.10"
 
 [tool.setuptools]
